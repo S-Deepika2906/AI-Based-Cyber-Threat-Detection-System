@@ -1,0 +1,20 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Dataset files
+dataset/*.parquet
+dataset/*.csv
+dataset/*.zip
+
+# Temporary files
+*.log
+.DS_Store
